@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+permission = ARGV[0]
+
+file = ARGV[1]
+
+File.chmod(permission.to_i, file)
