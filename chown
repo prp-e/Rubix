@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+
+file = ARGV[0]
+username = ARGV[1]
+
+uid = Process::UID.from_name(username)
+
+File.chown(uid, nil, file)
