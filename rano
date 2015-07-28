@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+n = 0
+str = ""
+file = ARGV[0]
+f = File.open(file, 'w+')
+
+while str != "exit\n"
+ print "#{n} >> "
+ str = gets
+ f.write(str)
+ n += 1
+end
