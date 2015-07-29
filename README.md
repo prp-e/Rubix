@@ -6,7 +6,7 @@ any programs, I've just write necessary programs for a Ruby-based User-space.
 
 ## Tested operating systems 
 
-1. Ubuntu (Linux)
-2. Arch Linux (Linux)
-3. FreeBSD (BSD)
+1. [Ubuntu](http://ubuntu.com) (Linux)
+2. [Arch Linux](http://archlinux.org) (Linux)
+3. [FreeBSD](http://freebsd.org) (BSD)
 4. [JabirOS](http://jabirproject.org) (BSD)
